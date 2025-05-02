@@ -237,15 +237,14 @@ run = 'move-node-to-workspace T'
 if.app-id = 'md.obsidian'
 run = 'move-node-to-workspace O'
 
-
 [workspace-to-monitor-force-assignment]
 #  big ass monitor has obsidian and vscode
-    1 = 'DELL P3424WE'                  # Non-main monitor in case when there are only two monitors
-    O = 'DELL P3424WE'                  # Non-main monitor in case when there are only two monitors
-    V = 'DELL P3424WE'                  # Non-main monitor in case when there are only two monitors
+    1 = ['DELL P3424WE', 'LG ULTRAWIDE']                  # Non-main monitor in case when there are only two monitors
+    O = ['DELL P3424WE', 'LG ULTRAWIDE']                  # Non-main monitor in case when there are only two monitors
+    V = ['DELL P3424WE', 'LG ULTRAWIDE']                  # Non-main monitor in case when there are only two monitors
 # secondary monitor has browser and 2
-    B = 'DELL P2723QE'                  # Non-main monitor in case when there are only two monitors
-    2 = 'DELL P2723QE'                  # Non-main monitor in case when there are only two monitors
+    B = ['DELL P2723QE', 'DELL U2718Q']                  # Non-main monitor in case when there are only two monitors
+    2 = ['DELL P2723QE', 'DELL U2718Q']                  # Non-main monitor in case when there are only two monitors
 #  terminal is a third screen type of thing
     3 = 'built-in'                   # Case insensitive regex substring
     T = 'built-in'                   # Case insensitive regex substring
